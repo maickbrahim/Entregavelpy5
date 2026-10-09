@@ -1,0 +1,26 @@
+============================================================
+               RELATÓRIO DE ANÁLISE DE DADOS                
+============================================================
+Arquivo analisado : dados.csv
+Total de registros: 7
+Registros válidos : 2 (28.6%)
+Registros inválidos: 5 (71.4%)
+
+--- REGISTROS VÁLIDOS ---
+  Linha  2 | Ana          | ana.silva@email.com
+  Linha  4 | Carla        | carla_souza@empresa.com.br
+
+--- REGISTROS INVÁLIDOS ---
+  Linha  3 | Bruno
+      - e-mail em formato inválido: 'bruno@email'
+  Linha  5 | Diego
+      - CPF em formato inválido: '12345678900'
+  Linha  6 | Elisa
+      - CPF em formato inválido: '111.111.111-11'
+      - telefone em formato inválido: '11987654321'
+      - data inexistente no calendário: '31/02/2000'
+  Linha  7 | Fabio
+      - idade inválida: -65 anos (permitido: 0 a 120)
+  Linha  8 | Gabi
+      - idade inválida: 176 anos (permitido: 0 a 120)
+============================================================
